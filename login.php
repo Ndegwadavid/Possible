@@ -9,7 +9,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (empty($username) || empty($email) || empty($password)) {
         echo "Please fill in all required fields";
     } else {
-        // connect to database and insert user data
         $db_host = "localhost";
         $db_user = "your_database_username";
         $db_pass = "your_database_password";
