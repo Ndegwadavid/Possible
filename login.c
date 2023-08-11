@@ -23,8 +23,6 @@ int main() {
             printf("Invalid username or password. Try again.\n");
         }
     } while (!is_authenticated);
-
-    // Continue with the rest of the program logic after successful login
-
+//code logic
     return 0;
 }
